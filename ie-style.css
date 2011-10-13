@@ -1,0 +1,406 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+body {
+	background: #FFFFFF;
+	text-align: left;
+	padding: 50px 100px 50px 50px;
+	width: 550px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #666666;
+	font-size: 13px;
+}
+
+p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	margin-top: 15px;
+}
+
+b, strong {
+  font-weight:bold;
+}
+
+i, em {
+  font-style:italic;
+}
+
+h1 {
+	font-size: 20px;
+	color: #333333;
+	padding-top: 5px;
+}
+
+h1 a {
+	color: #333333;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 14px;
+	color: #333333;
+	padding-top: 10px;
+}
+
+a {
+	color: #D43A0E;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D43A0E;
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	list-style-position: inside;
+	margin-left: 0;
+	padding-left: 1em;
+	padding-top: 0.5em;
+	text-indent: 1em;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	}
+	
+ul li:before {
+			content: "\00BB \0020";
+		     }
+
+/* Sidebar */
+
+#sidebar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 300px;
+	padding: 50px 10px 40px 40px;
+	text-align: left;
+	background: #D43A0E;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+}
+
+#sidebar a {
+	text-decoration: underline;
+	color: white;
+	margin: 40px 0 0 0;
+}
+
+#sidebar a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+
+#sidebar h5 {
+	font-size: 16px;
+	color: white;
+	margin: 40px 0 0 0px;
+}
+
+#sidebar h6 {
+	font-size: 12px;
+	color: white;
+	margin: 5px 0 0 0px;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	margin: auto;
+}
+
+#sidebar li {
+	list-style: none;
+	display: inline;
+}
+
+#follow {
+	padding-top: 40px;
+}
+
+#follow a {
+	margin-right: 10px;
+}
+
+form#search {
+	width: 210px;
+	height: 24px;
+	margin-top: 75px;
+}
+
+#search .text {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	background-color: #FFFFFF;
+	border: solid 1px #FFB500;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	width: 150px;
+	padding: 5px;
+}
+
+#search .buttons {
+	display: block;
+	width: 60px;
+	height: 29px;
+	background: #FFB501;
+	text-align: center;
+	line-height: 29px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #D43A0E;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* End Sidebar */
+
+/* Link Group */
+
+.link h3 {
+	font-size: 20px;
+	color: #D43A0E !important;
+	padding-top: 5px;
+	text-decoration: none;
+}
+
+.link h3:hover {
+	color: #D43A0E !important;
+	text-decoration: underline;
+}
+
+/* End Link */
+
+/*Quote Group */
+
+.quote h1 {
+	font-size: 15px;
+	color: #333333;
+	padding-top: 5px;
+}
+
+/* End Quote */
+
+/* Chat Group */
+
+.chat dt {
+	float: left;
+	width: 85px;
+	text-align: right;
+	font-style: italic;
+	overflow: hidden;
+}
+
+.chat dd {
+	margin: 0 0 5px 100px;
+}
+
+/* End Chat */
+
+/* Image Group */
+
+.image {
+  width:100%;
+  float:left;
+  padding:20px 0 20px 0;
+}
+
+.image a {
+  display:block;
+  float:left;
+}
+
+.image img {
+  float:left;
+}
+
+/* End Image */
+
+/* Audrio Group */
+
+#stat-articles article.stat-audio .stat-audio-wrapper {
+	width: 496px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#item item.audio .audio-wrapper {
+	width: 496px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#item item.audio .audio-padding {
+	padding: 17px 9px !important;
+	background-color: #F0F0F0;
+}
+
+#item item.audio .audio-wrapper a {
+	color: #111;
+	border-bottom: 1px dotted #8C8C8C;
+}
+
+#item item.audio .audio-album-art {
+	float: left;
+	display: inline-block;
+	margin: -8px 10px -8px 0;
+	border: 1px solid #EEE;
+	background-color: #FFF;
+	padding: 4px;
+	vertical-align: top;
+}
+
+#item item.audio .audio-album-art img {
+	width: 150px;
+	height: 150px;
+	vertical-align: top;
+}
+
+#item item.audio .audio-player {
+	background-color: #000;
+	display: inline-block;
+}
+
+#item item.audio .extra-padding .audio-player {
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	padding: 10px;
+}
+
+#item item.audio .audio-wrapper embed {
+	vertical-align: top;
+}
+
+#item item.audio .extra-padding embed {
+	vertical-align: baseline !important;
+}
+
+#item item.audio .audio-play-count,
+#item item.audio .audio-player .audio_player {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#item item.audio .extra-padding .audio-player .audio_player {
+	overflow: hidden;
+	height: 28px;
+	width: 28px;
+}
+
+#item item.audio .audio-play-count {
+	padding: 6px 10px 7px;
+	font: normal 11px/15px Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+#item item.audio .audio-play-count .audio-download {
+	font-weight: bold;
+	letter-spacing: 0 !important;
+}
+
+#item item.audio .audio-album-art,
+#item item.audio .audio-left {
+	float: left;
+}
+
+#item item.audio .extra-padding .audio-left {
+	width: 326px;
+}
+
+#item item.audio .audio-artist, 
+#item item.audio .audio-song {
+	padding: 8px;
+	background-color: #F9F9F9;
+	margin: 10px 0 0;
+}
+
+/* End Audio */
+
+/* Notes Group */
+
+.notes {
+	padding: 0;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.notes a {
+	padding: 0 !important;
+	margin: 0 10px 0 10px;
+	font-size: 16px;
+	color: #D43A0E;
+	text-decoration: underline;
+}
+
+.notes a:hover {
+	text-decoration: none;
+}
+
+.notes h7 {
+	float: right;
+}
+
+.notes h8 {
+	padding: 0;
+	font-size: 13px;
+	text-align: left;
+	margin-bottom: 40px;
+	list-style: none;
+}
+
+/* End Notes */
+
+/* Footer & Pagination */
+
+#footer {
+	font-size: 10px;
+	margin: 50px 0 0 0;
+}
+
+#pagination {
+	clear: both;
+	font-size: 16px;
+	border-top: 1px solid #D43A0E;
+	padding: 30px 0 40px 0;
+	text-align:center;
+}
+
+#pagination a {
+	color: #D43A0E;
+	text-decoration: none;
+	margin: 0 10px 0 10px;
+}
+
+#pagination a:hover {
+	color: #D43A0E;
+	text-decoration: underline;
+}
+
+/* End Footer & Pagination */
+
+@media screen{
+ body>div#sidebar{
+  position:fixed;
+ }
+}
+* html body{
+ overflow:hidden;
+} 
+* html div#content{
+ height:100%;
+ overflow:auto;
+}
